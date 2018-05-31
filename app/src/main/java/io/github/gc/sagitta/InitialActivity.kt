@@ -22,7 +22,7 @@ class InitialActivity : AppCompatActivity() {
 
     fun jumpPage() {
         Handler().postDelayed(Runnable {
-            val i = Intent(this@InitialActivity, MainActivity::class.java)
+            val i = Intent(this@InitialActivity, LoginActivity::class.java)
             startActivity(i)
             finish()
         }, 3000)

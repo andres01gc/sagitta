@@ -3,4 +3,12 @@
     <color name="colorPrimary">#29273F</color>
     <color name="colorPrimaryDark">#29273F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="Morado">#2A2840</color>
+    <color name="hint">#46ffffff</color>
+    <color name="p1">#eee7e5</color>
+    <color name="trasparent">#14ffffff</color>
+    <color name="_azul">#762546</color>
+    <color name="soft_azul">#46762546</color>
+    <color name="gb_bt">#DF4A32</color>
+    <color name="white">#ffffff</color>
 </resources>

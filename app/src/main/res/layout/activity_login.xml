@@ -3,10 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-        <import type="android.view.View"/>
-        <!--<variable-->
-            <!--name="hintUsername"-->
-            <!--type="io.github.gc.sagitta.LoginActivity.User" />-->
+
+        <import type="android.view.View" />
+
+        <variable
+            name="email"
+            type="String" />
+
+
+        <variable
+            name="pass"
+            type="String" />
+
     </data>
 
     <android.support.constraint.ConstraintLayout
@@ -41,7 +49,7 @@
             app:layout_constraintRight_toRightOf="parent">
 
             <EditText
-                android:id="@+id/editText3"
+                android:id="@+id/login_email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@null"
@@ -50,11 +58,11 @@
                 android:inputType="textPersonName"
                 android:padding="20dp"
                 android:textColor="#74ffffff"
+
                 android:textColorHint="@color/hint" />
-            <!--android:text="@{email}"-->
 
             <EditText
-                android:id="@+id/editText4"
+                android:id="@+id/login_pass"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@null"
